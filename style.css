@@ -1,0 +1,72 @@
+body {
+    background-color:pink;
+}
+
+h1 {
+    color: red;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+p {
+    color: #f46242;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    color: blue;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+li {
+    color: #a641f4;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3 {
+    color: #ea1c3b;
+}
+
+#taylor {
+    background-color: black;
+}
+
+#taylor:hover {
+    background-color: #171819;
+}
+
+
+#drizzy {
+    background-color: #100456;
+}
+
+#drizzy:hover {
+    background color: #01366b;
+}
+
+#jon {
+    background-color: #4c1575;
+}
+
+#ed {
+    background-color: maroon;
+}
+
+#aless {
+    background-color: #8bce4c;
+}
+
+#zedd {
+    background-color: #f7f731;
+}
+
+#kanye {
+    background-color: #4d5056;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
