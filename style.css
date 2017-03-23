@@ -1,5 +1,6 @@
 body {
     background-color:pink;
+    text-align: center;
 }
 
 h1 {
@@ -32,7 +33,7 @@ h3 {
 }
 
 #taylor:hover {
-    background-color: #171819;
+    background-color: #2b2c2d;
 }
 
 
@@ -41,27 +42,55 @@ h3 {
 }
 
 #drizzy:hover {
-    background color: #01366b;
+    background-color: #0f225e;
 }
 
 #jon {
     background-color: #4c1575;
 }
 
+#jon:hover {
+    background-color: #712d9b;
+}
+
 #ed {
     background-color: maroon;
 }
 
+#ed:hover {
+    background-color: #af181b;
+}
+
 #aless {
     background-color: #8bce4c;
+}    
+
+#aless:hover {
+    background-color: #208216;
 }
 
 #zedd {
     background-color: #f7f731;
 }
 
+#zedd:hover {
+    background-color: #d6b431;
+}
+
 #kanye {
     background-color: #4d5056;
+}
+
+#kanye:hover {
+    background-color: #918b77;
+}
+
+#selena {
+    background-color: #5c07b7;
+}
+
+#selena:hover {
+    background-color: #8542ce;
 }
 
 img {
@@ -69,4 +98,35 @@ img {
     display: block;
     margin: 0 auto;
     border: 5px solid white;
+}
+
+.top {
+position: fixed;
+bottom: 0;
+right: 0;
+margin: 0 15px 15px 0;
+border-radius: 5%;
+width: 60px;
+height: 60px;
+background: #FFF;
+border: 3px solid #000;
+cursor: pointer;
+color: #000;
+text-decoration: none;
+text-align: center;
+padding-top: 15px;
+transition: all 0.3s ease-in-out;
+}
+
+.top:hover {
+color: #FFF;
+background-color: #000;
+border: 3px solid #FFF;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    margin: 15px;
 }
